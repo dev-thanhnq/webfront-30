@@ -1,0 +1,29 @@
+* {
+	font-family: arial;
+}
+#div_1 {
+	text-align: center;
+	
+}
+p {
+	text-align: center;
+	color: #DF7D0B;
+}
+.phone {
+	width: 8%;
+	height: 180px;
+	border: 2px;
+	border-style: solid;
+	border-color: #504B4B;
+	display: inline-block;
+}
+.phone:hover {
+	border-color: yellow;
+}
+.price {
+	color: #F21919;
+	font-weight: bold;
+}
+.price:hover {
+	color: green;
+}

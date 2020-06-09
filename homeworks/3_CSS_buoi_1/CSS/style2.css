@@ -1,0 +1,35 @@
+* {
+	font-family: arial;
+}
+#div_1 {
+	width: 70%;
+	text-align: left;
+	/*border: 1px;
+	border-style: solid;
+	border-color: #504B4B;*/
+	/*background-image: url('../images2/background.gif');
+	background-repeat: repeat;*/
+}
+/*p {
+	text-align: left;
+}*/
+.icon {
+	width: 5%;
+	text-align: center;
+	float: left;
+	
+}
+.option {
+	width: 13%; 
+	float: left;
+	text-align: left;
+	
+}
+.sale {
+	display: inline-block;
+	text-align: left;
+}
+.op:hover {
+	color: blue;
+	text-decoration: underline;
+}

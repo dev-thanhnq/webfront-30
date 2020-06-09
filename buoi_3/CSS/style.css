@@ -1,0 +1,26 @@
+/*span {
+	color: green;
+}
+pre {
+	color: blue;
+}
+div {
+	width: 400px;
+	height: 200px;
+	background-color: pink;
+}
+.city-1 {
+	color: red;
+}
+.city-2 {
+	color: blue;
+}
+#hanoi {
+	color: green;
+}*/
+#my-div {
+	background-image: url('../images/sao.png');
+	background-repeat: repeat-x;
+	height: 5000px;
+	background-attachment: scroll;
+}

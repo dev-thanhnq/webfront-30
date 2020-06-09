@@ -1,0 +1,105 @@
+body {
+	background-image: url('../images3/tuyet.jpg'); 
+}
+#div {
+	font-family: arial;
+	font-size: 12px;
+	width: 780px;
+	border: 2px white solid;
+	margin: 0px auto;
+	background: white;
+}
+#anh_bia {
+	background-image: url('../images3/123.jpg');
+	width: 100%;
+	height: 352px;
+	text-align: center;
+}
+#menu {
+	background: #434343;
+	height: 29px;
+	text-align: center;
+}
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+}
+#menu ul li {
+	list-style: none;
+	float: left;
+	border-right: 1px #333333 groove;
+}
+#menu ul li a {
+	text-decoration: none;
+	display: block;
+	height: 29px;
+	line-height: 29px;
+	color: #ff4500;
+	padding: 0px 10px 0px 10px;
+}
+#menu ul li a:hover {
+	background: #ff4500;
+	color: #FFFFFF;
+}
+/*#main {
+	border: 2px white solid;
+}*/
+#main_left {
+	width: 147px;
+	height: 800px;
+	background: white;
+	float: left;
+}
+.danh_muc {
+	/*height: 25px;*/
+	background-image: url("../images3/menu_bar.gif");
+	text-align: center;
+	color: white;
+	padding: 7px;
+}
+#left_1 {
+	width: 99%;
+	border: 1px;
+	border-style: solid;
+	margin: 0px;
+}
+#left_2 {
+	width: 99%;
+	border: 1px;
+	border-style: solid;
+	margin: 0px;
+}
+#main_mid {
+	width: 486px;
+	height: 800px;
+	background: white;
+	float: left;
+}
+#mid_1 {
+	background-color: #ffbb88;
+	text-align: justify;
+	border-radius: 10px 10px 10px;
+	padding: 10px;
+	margin: 5px;
+
+}
+#can_trai {
+	background-image: url('../images3/main_bar_left.gif');
+	color: white;
+	text-align: left;
+	padding: 7px;
+	clear: both;
+}
+#main_right {
+	width: 147px;
+	height: 800px;
+	background: white;
+	float: left;
+}
+#right_1 {
+	width: 99%;
+	border: 1px;
+	border-style: solid;
+	text-align: center;
+	margin: auto;
+}
