@@ -1,0 +1,336 @@
+body {
+	background: #f3f3f3;
+}
+.fpts-header {
+	position: relative;
+	height: 56px;
+	z-index: 10;
+	background: #cd1818;
+	margin: -8px;
+}
+.fpts-wrap {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+.fpts-logo {
+    width: 187px;
+    margin-top: 8px;
+    display: inline-block;
+    float: left;
+    position: relative;
+    z-index: 10;
+}
+.f-logo {
+    width: 150px;
+    height: 40px;
+    background-position: 0 0;
+}
+.ficon {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url('https://fptshop.com.vn/images/icons.svg?v=032023');
+}
+.search {
+	float: left;
+	margin-top: 10px; 
+}
+.search>form {
+	display: block;
+	width: 604px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 2px;
+	z-index: 11;
+}
+.search>form>input {
+	width: 100%;
+	height: 38px;
+	border: none;
+	padding: 0px 60px 0px 10px;
+	background: white;
+	border-radius: 2px;
+	font-size: 14px;
+}
+.search>form>button {
+    width: 58px;
+    height: 38px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    border: none;
+    background: #333;
+    border-radius: 0 2px 2px 0;
+}
+.search>form>button>i, .hdmn>ul>li>a>i, .menu>ul>li>a>i {
+	color: white;
+	font-size: 20px;
+}
+ul {
+	list-style: none;
+}
+ul>li {
+	display: inline-block;
+}
+.hdmn>ul {
+	margin: auto;
+	margin-top: 5px;
+	margin-bottom: -14px;
+	float: left;
+}
+.hdmn>ul>li {
+	height: 55px;
+	/*font-family: arial;*/
+	font-size: 14px;
+	margin-right: 14px;
+	text-align: center;
+	padding: 6px 2px 0px 2px;
+	position: relative;
+}
+a {
+	text-decoration: none;
+}
+.hdmn>ul>li>a>span {
+	display: block;
+	color: white;
+}
+.clear {
+	clear: both;
+}
+.fpts-menu {
+	height: 36px;
+	background-color: #252525;
+	position: relative;
+	margin: 4px -8px;
+}
+.menu, .fpts-main>h2, .main-phone-sale, .main-laptop-hot, 
+.phu-kien, .phu-kien-item, .footer-main {
+	width: 1200px;
+}
+.menu {
+	height: 36px;
+	position: relative;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.menu>ul {
+	width: 100%;
+	height: 36px;
+	margin: 0px;
+	padding-left: 0px; 
+	position: absolute;
+}
+.menu>ul>li>a, .main-2-right, .main-1-bot-item, .fpts-main>h2, 
+.phone, .laptop, .phu-kien, .phu-kien-item, .footer-main {
+	font-family: arial;
+}
+.menu>ul>li>a {
+	text-align: center;
+	line-height: 200%;
+	align-items: center;
+	color: white;
+	padding-top: 3px;
+	margin-left: 15px;
+}
+.menu>ul>li>a>span:hover {
+	color: gray;
+}
+.sub-menu {
+	background-color: white; 
+	width: 1200px;
+	height: 260px;
+	display: none;
+	position: absolute;
+	z-index: 50;
+}
+.btn:hover .sub-menu {
+	display: block;
+}
+.btn {
+	display: inline-block;
+	height: 36px;
+}
+.fpts-main {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	cursor: pointer;
+}
+.img1 {
+	float: left;
+}
+.main-1-right {
+	height: 191px;
+	float: right;
+}
+.img3 {
+	padding-top: 10px;
+}
+.main-2-right {
+	width: 385px;
+	margin-top: 13px;
+	float: right;
+	color: #d9011b;
+	font-size: 15px;
+	background-color: white;
+	position: relative;
+}
+.main-2-right>h3>a, .fpts-main>h2>a {
+	float: right;
+	font-size: 13px;
+	color: #18487a;
+}
+.main-2-right>a, .main-1-bot-item {
+	font-size: 14px;
+}	
+.main-2-right>a {
+	display: inline-block;
+	/*position: absolute;*/
+}
+.main-2-right>a>h4 {
+	padding: 0 0 0 90px;
+    margin-top: -40px;
+    color: black;
+    font-weight: normal;
+}
+.main-2-right>h3, .main-2-right>a {
+	padding: 0 10px 0 10px;
+}
+.main-2-right>h3 {
+	margin: 7px auto;
+}
+.main-1-bot {
+	width: 800px;
+	background-color: white;
+	float: left;
+}
+.main-1-bot-item {
+	width: 113.33px;
+	height: 44px;
+	padding: 12px 10px 0px 10px;
+	text-align: center;
+	float: left;
+}
+.main-1-bot-item>span {
+	width: 113px;
+	height: 40px;
+}
+.ipAV {
+	margin-top: 20px;
+	margin-bottom: 0px; 
+}
+.fpts-main>h2 {
+	margin-top: 15px;
+	margin-bottom: 15px;  
+	font-weight: normal;
+	font-size: 22px;
+}
+.phone, .laptop {
+	float: left;
+	margin: 3px 3px;
+	background: white;
+	cursor: pointer;
+	/*padding: 0 4.5px;*/
+}
+.phone-name>h3, .laptop-name>h3, .phone-name>p, .laptop-name>p {
+	margin: 0px;
+	padding: 10px 0 0 10px;
+}
+.phu-kien {
+	height: 30px;
+	background-color: #e5e5e5;
+	margin: 0;
+	padding: 12px 6px 12px 6px;
+}
+.phu-kien>li {
+	margin-top: 5px;
+	padding: 0;
+}
+.phu-kien>li>a {
+	background-color: white;
+	font-size: 13px;
+	color: black;
+	padding: 10px;
+	border-radius: 20px; 
+}
+.phu-kien>li>a:hover {
+	background-color: black;
+	color: white;
+}
+.item {
+	width: 12.5%;
+	background-color: white;
+	float: left;
+	position: relative;
+}
+.item>a {
+	font-size: 14px;
+	color: black;
+	display: block;
+	padding: 10px;
+}
+.item>a>p {
+	margin: 5px 0;
+	font-weight: bold;
+}
+.main-card {
+	margin-top: 15px;
+}
+.main-card>div {
+	display: inline-block;
+	float: left;
+	cursor: pointer;
+}
+.main-card-2 {
+	padding: 0 9px;
+}
+.footer {
+	margin-top: 12px;
+	padding: 0px auto; 
+	width: 100%;
+	height: 232px;
+	background-color: white;
+	position: relative;
+}
+.footer-main {
+	height: 100%;
+	margin: 0 auto;
+	background-color: white;
+	position: absolute;
+	left: 344px;
+	display: inline-block;
+}
+.footer-1, .footer-2, .footer-3, .footer-4, .footer-5 {
+	padding: 8px 40px 0 0;
+	float: left;
+}
+.footer-1>ul, .footer-2>ul, .footer-3>ul {
+	padding-left: 0px;
+}
+.footer-1>ul>li, .footer-2>ul>li, .footer-3>ul>li {
+	padding: 5px 0;
+	display: block;
+}
+.footer-1>ul>li>a, .footer-2>ul>li>a, .footer-3>ul>li>a {
+	color: #3399d2;
+	font-size: 14px;
+}
+.footer-4>p, .footer-5>p {
+	margin: 20px 0 5px 0;
+	font-size: 14px;
+}
+.footer-4>span, .footer-5>span {
+	color: #d0021b;
+	font-size: 20px;
+	font-weight: bold;
+}
+.bct {
+	padding-bottom: 13px;
+}
+.last {
+	font-size: 14px;
+	margin: 7px 0 0 0;
+}

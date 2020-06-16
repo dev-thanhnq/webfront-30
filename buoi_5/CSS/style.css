@@ -1,0 +1,35 @@
+.container {
+	width: 500px;
+	height: 1000px;
+	border: 2px gray solid;
+/*	background-color: blue;
+*/	font-family: arial;
+}
+.header {
+	width: 100%;
+	height: 100px;
+	/*background-color: red;*/
+	padding-top: 32px;
+}
+.header > p {
+	padding-left: 30px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.option {
+	width: 100%;
+	height: 300px;
+	/*background-color: */
+	padding-top: 32px;
+	padding-left: 30px;
+}
+a {
+	display: block;
+}
+#option_fb {
+	width: 100%;
+	height: 40px;
+	background-color: #538ac5;
+}
+
+
