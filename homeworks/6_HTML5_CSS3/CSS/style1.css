@@ -1,0 +1,209 @@
+body {
+	font-family: arial;
+}
+header {
+	width: 28%;
+	height: 80px;
+	/*background-color: gray;*/
+	margin: 0 auto;
+	/*padding: 0 auto;*/
+	position: relative;
+}
+ul {
+	list-style: none;
+	border-top: 1px black solid;
+	border-bottom: 1px black solid;
+	float: left;
+	margin-top: 30px;
+}
+ul>li {
+	display: inline-block;
+	padding: 0 9px;
+
+}
+header>div {
+	position: absolute;
+	left: 160px;
+}
+#ul1 {
+	padding: 0px 100px 0px 10px;
+}
+#ul2 {
+	padding: 0px 10px 0px 100px;
+}
+a {
+	text-decoration: none;
+	color: black
+}
+.container {
+	width: 75%;
+	height: 1050px;
+	padding: 40px;
+	background-color: #f3f5f7;
+	margin: 0 auto;
+}
+.container>h1 {
+	margin: 100px 50px 20px 50px;
+	font-size: 50px;
+	color: #2aad9c;
+	text-align: center;
+}
+.container>h4 {
+	font-weight: normal;
+	text-align: center;
+}
+/*.content {
+	width: 100%;
+	text-align: center;
+}*/
+.option {
+	width: 450px;
+	height: 350px;
+	margin-bottom: 32px;
+	overflow: hidden;
+	position: relative;
+	float: left;
+}
+.sell {
+	width: 450px;
+	position: absolute;
+	top: 226px;
+	transition: 1s;
+}
+.option:hover .sell {
+	top: 0px;
+}
+#option2 {
+	margin: 0 32px;
+}
+#option5 {
+	margin: 0 32px;
+}
+.info {
+	width: 75%;
+	height: 140px;
+	margin: 0 auto;
+	padding: 40px;
+	position: relative;
+}
+.about {
+	float: left;
+	width: 60%;
+}
+.mxh {
+	float: right;
+	width: 30%;
+}
+.mxh>i {
+	margin: 10px;
+	font-size: 40px;
+}
+.about>h3, .mxh>h3, .mxh>i {
+	color: #2aad9c;
+}
+.your-info {
+	width: 75%;
+	padding: 40px;
+	margin: 0 auto;
+	background-color: #2aad9c;
+}
+.text, .your-info>form>textarea {
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+.your-info>form>textarea {
+	height: 100px;
+}
+.send {
+	background-color: #338074;
+	width: 60px;
+	height: 30px;
+	border-radius: 5px; 
+}
+h3, .your-info>form>span {
+	color: white;
+}
+.clear {
+	clear: both;
+}
+@media all and (max-width: 700px) {
+	.container {
+		width: 100%;
+		height: 1200px;
+		padding: 20px;
+	}
+	.container>h4 {
+		clear: both;
+	}
+	.option {
+		width: 300px;
+		height: 233px;
+
+	}
+	.item {
+		width: 300px;
+	}
+	.sell {
+		width: 300px;
+		top: 151px;
+	}
+	#option1, #option2, #option3, #option4, #option5, #option6 {
+		margin: 0 20px 40px 20px;
+	}
+	.info {
+		width: 100%;
+		height: 240px;
+		padding: 20px;
+	}
+	.your-info {
+		width: 100%;
+		padding: 20px;
+	}
+}
+@media all and (max-width: 480px) {
+	header {
+		width: 104%;
+		margin-left: 20px;
+	}
+	header>div {
+		width: 150px;
+	}
+	header>div>img {
+		width: 150px;
+	}
+	#ul1 {
+	padding: 0px 75px 0px 10px;
+	}
+	#ul2 {
+		padding: 0px 10px 0px 75px;
+	}
+	.container {
+		width: 100%;
+		height: 2650px;
+		padding: 20px;
+	}
+	.container>h4 {
+		clear: both;
+	}
+	.option {
+		width: 400px;
+		height: 311px;
+
+	}
+	.item {
+		width: 400px;
+	}
+	.sell {
+		width: 400px;
+		top: 201px;
+	}
+	#option1, #option2, #option3, #option4, #option5, #option6 {
+		margin: 0 20px 40px 32px;
+	}
+	.info {
+		width: 100%;
+		height: 275px;
+		padding: 20px;
+	}
+}	

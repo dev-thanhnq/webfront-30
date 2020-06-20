@@ -1,0 +1,47 @@
+body {
+	font-family: arial;
+}
+.header {
+	width: 100%;
+	height: 90px;
+	background-color: #323232;
+	
+}
+.header-1 {
+	width: 1600px;
+	height: 100%;
+	margin: 0 auto;
+	/*line-height: 200%;*/
+	position: relative;
+	/*background-color: */
+}
+.header-1-1 {
+	height: 100%;
+	width: 260px;
+	float: left;
+	/*position: absolute;*/
+}
+.header-1-1>h3 {
+	color: white;
+}
+.header-1-2 {
+	height: 100%;
+	width: 700px;
+	padding: 0 90px;
+	color: gray;
+	font-weight: normal;
+	float: left;
+	/*position: absolute;*/
+}
+.header-1-3 {
+	height: 100%;
+	width: 250px;
+	padding-top: 20px;
+	float: left;
+}
+.header-1-3>a {
+	color: #c68217;
+}
+a {
+	text-decoration: none;
+}

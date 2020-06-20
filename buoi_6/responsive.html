@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Thực hành animations</title>
+</head>
+<style type="text/css">
+	.div-1 {
+		width: 100px;
+		height: 100px;
+		position: relative;
+		animation-name: move;
+		animation-duration: 1s;
+		animation-direction: alternate;
+		animation-iteration-count: infinite;  
+		animation-timing-function: linear;
+	}
+	.div-2 {
+		width: 200px;
+		height: 200px;
+		background-color: green;
+		transition: width 2s, height 2s;
+	}
+	.div-2:hover {
+		width: 400px;
+		height: 500px;
+	}
+	.div-3 {
+		width: 500px;
+		height: 200px;
+		background: linear-gradient(red,yellow);
+		box-shadow: 10px 10px 5px;
+	}
+	@keyframes move {
+		0% {
+			background: red;
+			left: 0px;
+		}
+		25% {
+			background-color: yellow;
+			left: 200px
+		}
+		50% {
+			background-color: green;
+			left: 400px;
+		}
+		75% {
+			background-color: blue;
+			left: 600px;
+		}
+		100% {
+			background: gray;
+			left: 800px;
+		}
+	}
+</style>
+<body>
+	<div class="div-1"></div>
+	<br>
+	<div class="div-2"></div>
+	<br>
+	<div class="div-3"></div>
+</body>
+</html>
