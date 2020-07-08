@@ -1,0 +1,11 @@
+.container {
+	width: 300px;
+	height: auto;
+	overflow: hidden;
+	border: 1px black solid;
+	padding-left: 20px;
+}
+#my-p {
+	width: 100%;
+	font-size: 15px;
+}
