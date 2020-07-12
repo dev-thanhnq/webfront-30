@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bài 1</title>
+	<link rel="stylesheet" href="CSS/style2.css">
+</head>
+<body>
+	<form>
+		<h4 class="label">Họ và tên</h4>
+		<input type="text" name placeholder="Nhập họ tên" class="input" onblur="checkName(this)">
+		<h4 class="warning-none" id="war-nameNone">Yêu cầu nhập họ tên</h4>
+		<h4 class="warning" id="war-nameShort">Họ tên phải trên 8 kí tự</h4>
+		<br>
+		<h4 class="label">Giới tính</h4>
+		<input type="radio" name="gioitinh" class="check"> Nam
+		<input type="radio" name="gioitinh" class="check"> Nữ
+		<input type="radio" name="gioitinh" class="check"> Khác
+		<h4 class="warning" id="war-gioitinh">Chọn giới tính</h4>
+		<br>
+		<h4 class="label">Email</h4>
+		<input type="email" name="Email" name placeholder="Nhập email" class="input" onblur="checkEmail(this)">
+		<h4 class="warning-none" id="war-emailNone">Yêu cầu nhập email</h4>
+		<h4 class="warning" id="war-emailFalse">Email sai định dạng</h4>
+		<br>
+		<h4 class="label">Số điện thoại</h4>
+		<input type="text" name placeholder="Nhập số điện thoại" class="input" onblur="checkNumber(this)">
+		<h4 class="warning-none" id="war-numberNone">Yêu cầu nhập số điện thoại</h4>
+		<h4 class="warning" id="war-numberFalse">Số điện thoại không hợp lệ</h4>
+		<br>
+		<h4 class="label">Mật khẩu</h4>
+		<input type="password" value="" class="input" id="password" onblur="checkPass(this)">
+		<h4 class="warning-none" id="war-passNone">Yêu cầu nhập mật khẩu</h4>
+		<h4 class="warning" id="war-passShort">Mật khẩu phải trên 8 kí tự</h4>
+		<br>
+		<h4 class="label">Xác nhận mật khẩu</h4>
+		<input type="password" value="" class="input" onblur="checkSubPass(this)">
+		<h4 class="warning-none" id="war-subPassNone">Yêu cầu xác nhận mật khẩu</h4>
+		<h4 class="warning" id="war-subPassFalse">Mật khẩu không chính xác</h4>
+	</form>
+	<div>
+		<input type="button" value="Đăng kí" id="submit" onclick="submit()">
+		<input type="button" value="Xóa trắng" id="clear" onclick="clearAll()">
+	</div>
+</body>
+<script type="text/javascript" src="js/2.js"></script>
+</html>

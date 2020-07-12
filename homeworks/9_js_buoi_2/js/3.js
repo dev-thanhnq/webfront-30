@@ -1,7 +1,7 @@
 var defaultFontSize = document.getElementById('my-p').style.fontSize;
 function setDefault() {
 	document.getElementById('my-p').style.fontSize = defaultFontSize;
-}
+}	
 function biggerFontSize() {
 	var font = document.getElementById('my-p').style.fontSize;
 	console.log(font);

@@ -1,0 +1,51 @@
+.container {
+	width: 641px;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+}
+img {
+	/*position: relative;*/
+	/*z-index: 5;*/
+}
+#next, #back {
+	position: absolute;
+	z-index: 10;
+	top: 44%;
+	font-size: 25px;
+	color: white;
+	opacity: 0.3;
+	cursor: pointer;
+}
+#next {
+	right: 3%;
+}
+#back {
+	left: 3%;
+}
+#next:hover, #back:hover {
+	opacity: 0.8;
+}
+.select {
+	position: absolute;
+	z-index: 10;
+	font-size: 10px;
+	color: white;
+	bottom: 5%;
+	right: 3%;
+}
+.fa-circle {
+	margin: 0 2px;
+	opacity: 0.3;
+	cursor: pointer;
+}
+.fa-circle:hover, .opa {
+	opacity: 1;
+}
+.img {
+	display: none;
+}
+.img-block {
+	display: block;
+}

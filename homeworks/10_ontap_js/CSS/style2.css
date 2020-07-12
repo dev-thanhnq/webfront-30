@@ -1,0 +1,46 @@
+form {
+	width: 40%;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+	border: 2px black solid;
+	border-radius: 20px;
+	padding: 20px 10px;
+}
+.label{
+	width: 20%;
+	float: left;
+	margin: 0;
+	font-weight: normal;
+	margin: 10px 0 5px 0;
+	/*font-size: 10px;*/
+}
+.input {
+	margin: 10px 40px 10px 0;
+	width: 40%;
+	/*float: left;*/
+}
+.check {
+	margin: 10px 0;
+	/*float: left;*/
+}
+body> div {
+	width: 40%;
+	margin: 20px auto;
+}
+#submit, #clear {
+	margin: 0 18%;
+	width: 100px;
+	background-color: red;
+	color: white;
+	height: 25px;
+}
+.warning, .warning-none {
+	font-size: 14px;
+	font-weight: normal;
+	color: red;
+	margin: 0;
+	float: right;
+	margin: 13px 0 4px 0;
+	display: none;
+}
