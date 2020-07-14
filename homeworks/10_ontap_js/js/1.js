@@ -42,5 +42,5 @@ function selectCircle(element) {
 	for (var i = 0; i < cham,length; i++) {
 		img[i].className = img[i].className.replace(' img-block', '');
 	}
-	for (var i = 0; i < cham.length)
+	// for (var i = 0; i < cham.length)
 }
