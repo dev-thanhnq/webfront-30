@@ -1,0 +1,19 @@
+#header {
+	text-align: center;
+	color: 
+}
+.container {
+	width: 70%;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.content {
+	width: 32%;
+	float: left;
+	margin: 0 0.5%;
+}
+.img {
+	width: 100%;
+	cursor: pointer;
+}

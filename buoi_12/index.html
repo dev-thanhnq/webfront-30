@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="../jquery-3.5.1.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/wow.js"></script>
+	<link rel="stylesheet" href="CSS/animate.css">
+<script>
+    new WOW().init();
+</script>
+	<style>
+		.div1 {
+			width: 100px;
+			height: 100px;
+			background-color: red;
+			display: none;
+		}
+		.div2 {
+			width: 100px;
+			height: 100px;
+			background-color: green;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<p id="myText">hello</p>
+		<p id="myText-2">world</p>
+		<h1>hahaha</h1>
+		<div class="div1"></div>
+		<div class="div2"></div>
+		<button id="click">click</button>
+		<div class="wow bounceInUp">
+		   Content to Reveal Here
+		</div>
+</body>
+</html>

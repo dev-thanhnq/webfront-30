@@ -27,7 +27,7 @@ $(document).ready(function() {
 	})
 	$(document).on('click', '.work', function() {
 		$(this).children('span').css('text-decoration', 'line-through');
-		$(this).css('backgroundColor', 'gray');
+		$ (this).css('backgroundColor', 'gray');
 		$(this).append('<i class="fa fa-check" aria-hidden="true" style="position: absolute; left: 10px; top: 11px; font-size: 25px"></i>');
 	})
 })

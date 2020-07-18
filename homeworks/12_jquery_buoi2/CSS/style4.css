@@ -1,0 +1,437 @@
+body {
+	margin: 0;
+	font-family: arial;
+}
+header {
+	width: 80%;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 10px 0;
+	background-color: #ffffff;
+}
+.leader {
+	float: left;
+}
+#demo, #download {
+	float: right;
+	padding: 5px 10px;
+	margin-left: 10px;
+	border-radius: 15px;
+	border: 1px black solid; 
+	font-weight: bold;
+}
+#demo {
+	background-color: #ffffff;
+}
+#download {
+	background-color: #0887ed;
+	color: white;
+}
+.start {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background-color: #f9faff;
+	padding-top: 70px;
+}
+#our-top {
+	font-weight: normal;
+	font-size: 25px;
+	margin: 0;
+}
+#business {
+	font-size: 70px;
+	margin: 10px 0;
+}
+.get-start {
+	padding: 15px;
+	background-color: #0887ed;
+	color: white;
+	width: 140px;
+	border-radius: 25px;
+	margin-top: 20px; 
+}
+.start-footer {
+	width: 100%;
+	height: 299px;
+	overflow: hidden;
+	background-image: url('../images2/pro-bg.png');
+}
+.ebook, .online-business, .buy-now {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.ebook, .buy-now {
+	background-color: #e6fcff;
+}
+.content {
+	width: 80%;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+	padding: 80px 0;
+}
+.pc {
+	float: left;
+}
+.guide {
+	float: left;
+	margin-left: 50px;
+	width: 60%;
+}
+.guide > h1 {
+	margin: 10px 0;
+
+}
+#guide-h1-1 {
+	font-weight: normal;
+}
+#guide-h1-2 {
+	font-size: 60px;
+}
+.guide > p > i{
+	color:  #0887ed;
+	margin-right: 30px; 
+	font-size: 10px;
+}
+.free-trial, .demo-request {
+	padding: 15px 20px;
+	border-radius: 25px;
+	margin-right: 10px;
+	float: left;
+}
+.free-trial {
+	width: 117px;
+	background-color: #0887ed;
+	color: white;
+}
+.demo-request {
+	width: 107px;
+	border: 1px black solid;
+	color: black;
+}
+#online-business-h1-1 {
+	font-weight: normal;
+	margin: 10px 0;
+}
+#online-business-h1-2 {
+	font-size: 50px;
+	margin: 10px 0;
+}
+.sub-online {
+	width: 20%;
+	height: auto;
+	overflow: hidden;
+	padding: 30px 40px;
+	text-align: center;
+	border: 1px #d8d3d3 solid;
+	float: left;
+	margin: 40px 2.5% 0 2.5%;
+	box-sizing: border-box;
+}
+.sub-online > img {
+	width: 40%;
+}
+.online-try-free {
+	padding: 10px 30px;
+	width: 80px;
+	border: 1px black solid;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-radius: 20px;
+	color: black;
+	font-weight: bold;
+}
+a {
+	text-decoration: none;
+}
+.buy-now-left {
+	width: 52%;
+	float: left;
+}
+.usd-50 {
+	float: left;
+}
+#buy-now-title {
+	font-size: 50px;
+	margin: 10px 0;
+}
+.buy-now-left > h2 {
+	font-weight: normal;
+}
+.buy-now-left > hr {
+	margin: 30px 0;
+	color: #d8d3d3; 
+}
+.do-50 {
+	width: 50px;
+	height: 50px;
+	box-sizing: border-box;
+	background-color: white;
+	text-align: center;
+	line-height: 200%;
+	font-weight: bold;
+	font-size: 24px;
+}
+.usd {
+	width: 50px;
+	height: 25px;
+	box-sizing: border-box;
+	background-color: #456a96;
+	padding: 5px 8px;
+	color: white;
+	font-weight: bold;
+}
+.usd-50 {
+	margin-right: 20px;
+}
+.form {
+	width: 40%;
+	float: right;
+
+}
+.fill-the-form {
+	width: 100%;
+	height: 50px;
+	background-color: #456a96;
+	text-align: center;
+	line-height: 200%;
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+	border-top-left-radius: 20px; 
+	border-top-right-radius: 20px; 
+}
+.form > form {
+	width: 100%;
+	background-color: white; 
+	box-sizing: border-box;
+	padding: 40px;
+	border-bottom-left-radius: 20px; 
+	border-bottom-right-radius: 20px; 
+}
+.form > form > input {
+	border: 0;
+	width: 90%;
+}
+.form > form > hr {
+	margin: 15px 0 30px 0;
+}
+.form > form > button {
+	width: 100%;
+	height: 50px;
+	background-color: #0887ed;
+	color: white;
+	text-align: center;
+	line-height: 200%;
+	font-weight: bold;
+	font-size: 20px;
+	border: 0;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+#customer {
+	font-size: 50px;
+	margin: 10px;
+}
+#customer-lorem {
+	font-weight: normal;
+}
+.sub-customer {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding-top: 40px;
+}
+.sub {
+	width: 45%;
+	box-sizing: border-box;
+	padding: 60px 40px 30px 40px;
+	background-color: white;
+	box-shadow: 0 0 10px 4px #e4dedc;
+	float: left;
+	margin: 2.5%;
+	text-align: center;
+	position: relative;
+}
+.avatar {
+	width: 90px;
+	height: 90px;
+	border: 1px black solid;
+	border-radius: 100%;
+	/*line-height: 200%;*/
+	padding-top: 10px;
+	box-sizing: border-box;
+	position: absolute;
+	top: -26%;
+    left: 43%;
+	background-color: white;
+}
+footer {
+	width: 100%;
+	height: 30px;
+	color: white;
+	background-color: #456a96;
+	padding-top: 15px;
+}
+@media all and (min-width: 320px) and (max-width: 480px) {
+	#demo, #download {
+		display: none;
+	}
+	.leader {
+		/*margin: 0 auto;*/
+		margin-left: 24%;
+	}
+	#our-top, #guide-h1-1, #online-business-h1-1, .buy-now-left > h2 {
+		font-size: 20px;
+	}
+	#business, #guide-h1-2, #online-business-h1-2, #buy-now-title, #customer {
+		font-size: 35px;
+	}
+	.start > center > span, .buy-now-left > span {
+		font-size: 12px;
+		margin: 0 20px;
+	}
+	.pc {
+		width: 100%;
+		/*height: auto;
+		overflow: hidden;*/
+		text-align: center;
+	}
+	.pc > img {
+		width: 80%;
+	}
+	.content {
+		width: 90%;
+		padding: 50px 0;
+	}
+	.guide {
+		float: left;
+		margin-left: 0px;
+		width: 100%;
+	}
+	.guide > span {
+		font-size: 15px;
+	}
+	.guide > p {
+		font-size: 15px;
+	}
+	.sub-online {
+		width: 94%;
+		margin: 3%;
+		padding: 15px;
+	}
+	.online-try-free {
+		padding: 10px 10px;
+		width: 50%;
+		font-size: 15px;
+	}
+	.buy-now-left {
+		width: 100%;
+		text-align: center;
+
+	}
+	.usd-50 {
+		margin-left: 15%;
+		margin-right: 0;
+	}
+	.form {
+		width: 100%;
+		margin-top: 30px;
+	}
+	.sub {
+		width: 94%;
+		margin: 15% 3%;
+	}
+	.avatar {
+		top: -20%;
+    	left: 39%;
+	}
+	footer {
+		font-size: 10px;
+	}
+}
+@media all and (min-width: 481px) and (max-width: 800px) {
+	#demo, #download {
+		display: none;
+	}
+	.leader {
+		/*margin: 0 auto;*/
+		margin-left: 24%;
+	}
+	#our-top, #guide-h1-1, #online-business-h1-1, .buy-now-left > h2 {
+		font-size: 25px;
+	}
+	#business, #guide-h1-2, #online-business-h1-2, #buy-now-title, #customer {
+		font-size: 40px;
+	}
+	.start > center > span, .buy-now-left > span {
+		font-size: 15px;
+		margin: 0 20px;
+	}
+	.pc {
+		width: 100%;
+		/*height: auto;
+		overflow: hidden;*/
+		text-align: center;
+	}
+	.pc > img {
+		width: 80%;
+	}
+	.content {
+		width: 90%;
+		padding: 50px 0;
+	}
+	.guide {
+		float: left;
+		margin-left: 0px;
+		width: 100%;
+	}
+	.guide > span {
+		font-size: 15px;
+	}
+	.guide > p {
+		font-size: 15px;
+	}
+	.sub-online {
+		width: 44%;
+		margin: 3%;
+		padding: 15px;
+	}
+	.online-try-free {
+		padding: 10px 10px;
+		width: 50%;
+		font-size: 15px;
+	}
+	.online-try-free {
+		padding: 10px 10px;
+		width: 50%;
+		font-size: 15px;
+	}
+	.buy-now-left {
+		width: 100%;
+		text-align: center;
+
+	}
+	.usd-50 {
+		margin-left: 15%;
+		margin-right: 0;
+	}
+	.form {
+		width: 100%;
+		margin-top: 30px;
+	}
+	.sub {
+		width: 94%;
+		margin: 10% 3%;
+	}
+	.avatar {
+		top: -20%;
+    	left: 39%;
+	}
+	footer {
+		font-size: 15px;
+	}
+}
