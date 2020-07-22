@@ -1,0 +1,80 @@
+header {
+	background-image: url('../images/bg-masthead.jpg');
+	height: 700px;
+	width: 100%;
+	background-size: cover;
+}
+.head a {
+	color: white !important;
+}
+.banner {
+	margin-top: 10%;
+}
+.banner h1, .banner h5 {
+	color: #F1541D !important;
+}
+.banner h5, .content h5 {
+	margin: 4% 0;
+	font-size: 15px;
+}
+.banner button {
+	background-color: #F1541D;
+	border: 0;
+	border-radius: 25px;
+}
+.content {
+	width: 60%;
+	margin: 0 auto;
+}
+.content {
+	box-sizing: border-box;
+	/*padding: 7%;*/
+}
+.get-start {
+	background-color: #F1541D;
+}
+.get-start button, .down button {
+	background-color: white;
+	color: black;
+	border: 0;
+	border-radius: 25px;
+}
+.padd {
+	padding: 7% 0;
+}
+.row-service {
+	margin-top: 5%;
+}
+.icon-service {
+	color: #F1541D;
+	font-size: 90px !important;
+}
+.col-service {
+	margin-bottom: 5%;
+}
+.img {
+	width: 100%;
+}
+.sub-img {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.padd-col {
+	padding: 0 !important;
+}
+.wrow {
+	width: 100.8%;
+}
+.down {
+	background-color: #212529;
+}
+.footer-icon {
+	font-size: 50px !important;
+}
+.feedback {
+	color: #F1541D !important;
+}
+.col-mar {
+	margin-bottom: 5%;
+}
